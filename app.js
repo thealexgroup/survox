@@ -21,6 +21,8 @@ app.use(express.static("./public"));
 //require routes.js and pass (app) to routes.js for use later! 
 require("./routes/routes.js")(app);
 
+//start listening on whatever port (either environment port or 
+//what I set above) and tell us what port we are listening on.
 app.listen(PORT, function() {
 	console.log("App listening on port: " + PORT);
 });
