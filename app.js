@@ -1,7 +1,5 @@
-//dependancies - what does that mean?  Well,
-//it is an npm module that has properties that we
-//use in our app. Broadly, a term used to describe
-//a software that another software relies on to work!
+//dependancies - what does that mean? Broadly, a term used to describe
+//a software that another software relies on to work.
 var express = require('express');
 var bodyParser = require('body-parser');
 
